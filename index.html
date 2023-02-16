@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <img src="images/capa astroworld.jpg" alt="capa astroworld">
+
+    <div class="musicInfo">
+        <h2>Nome da musica</h2>
+        <i>Nome do artista</i>
+    </div>
+
+    <div class="musicTime">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto">
+
+            </div>
+        </div>
+
+        <div class="timeSong">
+            <p class="start">0:00</p>  
+            <p class="end">0:00</p>
+        </div>
+    </div>
+
+    <div class="player">
+        <i class="fa-solid fa-backward-step seta back"></i>
+        <i class="fa-solid fa-circle-play btnPlay"></i>
+        <i class="fa-solid fa-circle-pause btnPause"></i>
+        <i class="fa-solid fa-forward-step seta next"></i>
+    </div>
+
+    <audio src="music/Travis Scott - Butterfly Effect (audio) (320 kbps).mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
